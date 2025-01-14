@@ -29,4 +29,14 @@ X:\private\github\apppro_test>git push -u origin master
 
 現れた画面でTOKENを入力
 
-githubに
+github上にtest.txtが追加されている。
+
+2回目のプッシュをするときは
+
+X:\private\github\apppro_test>git add test.txt
+
+X:\private\github\apppro_test>git commit -m "2回目のpush"
+
+X:\private\github\apppro_test>git push
+
+でできる。
