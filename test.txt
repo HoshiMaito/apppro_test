@@ -1,2 +1,32 @@
 今日の授業ではgitの使い方を勉強します。
 試しにファイルをアップロードしました。
+
+X:\>cd private
+
+X:\private>mkdir github
+
+X:\private>cd github
+
+X:\private\github>mkdir apppro_test
+
+X:\private\github>cd apppro_test
+
+X:\private\github\apppro_test>notepad test.txt
+
+X:\private\github\apppro_test>git init
+
+X:\private\github\apppro_test>git config --global user.email "ee33073v@nagaoka-ct.ac.jp"
+
+X:\private\github\apppro_test>git config --global user.name "HoshiMaito"
+
+X:\private\github\apppro_test>git add test.txt
+
+X:\private\github\apppro_test>git commit -m "初めてのプッシュ"
+
+X:\private\github\apppro_test>git remote add origin https://github.com/HoshiMaito/apppro_test.git
+
+X:\private\github\apppro_test>git push -u origin master
+
+現れた画面でTOKENを入力
+
+githubに
